@@ -142,7 +142,7 @@ public class SignIn extends AppCompatActivity {
         });
         HowToEnableRPCLink.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://gridcoinapp.xyz/EnableRPC"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://moisescardona.me/enable-gridcoin-rpc"));
                 startActivity(browserIntent);
             }
         });

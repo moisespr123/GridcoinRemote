@@ -6,7 +6,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/gridcoin_logo"
+        android:icon="@drawable/gridcoin_logo"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:supportsRtl="true"
