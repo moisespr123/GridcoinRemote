@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Gridcoin Remote</string>
+    <string name="howtoenablerpc"><u>How to enable RPC?</u></string>
+    <string-array name="drawerMainActivityList">
+        <item>Wallet</item>
+        <item>Settings</item>
+        <item>About App</item>
+    </string-array>
+    <string name="logo">Logo</string>
+    <string name="signin_welcome">Welcome!</string>
+    <string name="signin_ip">Enter the IP Address of the machine running the Gridcoin Wallet:</string>
+    <string name="signin_port">Enter the RPC Port Number:</string>
+    <string name="signin_username">Username:</string>
+    <string name="signin_password">Password:</string>
+    <string name="signin_remember">Remember Information</string>
+    <string name="signin_signin">Sign In</string>
+    <string name="wallet">Wallet</string>
+    <string name="youraddress">Your Address:</string>
+    <string name="address">Address Unknown</string>
+    <string name="balance">Balance: 0</string>
+    <string name="blocks">Blocks: 0</string>
+    <string name="por_diff">PoR Difficulty: 0</string>
+    <string name="netweight">Net Weight: 0</string>
+    <string name="cpid">CPID: N/A</string>
+    <string name="grcmagunit">GRC Mag Unit: 0</string>
+    <string name="mymag">My Magnitude: 0</string>
+    <string name="clientversion">Client Version: 0.0.0.0</string>
+    <string name="connections">Connections: 0</string>
+    <string name="aboutapp">Developed by: Moisés Cardona\nVersion 1.1\n</string>
+    <string name="donategrcto">Donate Gridcoins to:</string>
+    <string name="grcaddress">SAw6dAHTe2oZQTkLGCRjakB5pyHBu8hsAy</string>
+</resources>

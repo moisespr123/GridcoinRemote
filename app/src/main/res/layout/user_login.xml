@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg">
+    <TextView
+        android:text="@string/signin_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/welcomeText"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:contentDescription="@string/logo"
+        android:layout_width="wrap_content"
+        app:srcCompat="@mipmap/gridcoin_logo"
+        android:layout_below="@+id/welcomeText"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:layout_height="120dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/HowToEnableRPC"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:id="@+id/IPAddressText"
+        android:layout_alignRight="@+id/textView11"
+        android:layout_alignEnd="@+id/textView11"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+    <TextView
+        android:text="@string/signin_port"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IPAddressText"
+        android:layout_alignLeft="@+id/IPAddressText"
+        android:layout_alignStart="@+id/IPAddressText"
+        android:id="@+id/textView12" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:id="@+id/PortText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_alignRight="@+id/IPAddressText"
+        android:layout_alignEnd="@+id/IPAddressText" />
+
+    <TextView
+        android:text="@string/signin_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PortText"
+        android:layout_alignLeft="@+id/PortText"
+        android:layout_alignStart="@+id/PortText"
+        android:id="@+id/textView13" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:id="@+id/UsernameField"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_alignRight="@+id/PortText"
+        android:layout_alignEnd="@+id/PortText" />
+
+    <TextView
+        android:text="@string/signin_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/UsernameField"
+        android:layout_alignLeft="@+id/UsernameField"
+        android:layout_alignStart="@+id/UsernameField"
+        android:id="@+id/PasswordTextView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/PasswordTextBox"
+        android:layout_below="@+id/PasswordTextView"
+        android:layout_alignLeft="@+id/PasswordTextView"
+        android:layout_alignStart="@+id/PasswordTextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_alignRight="@+id/UsernameField"
+        android:layout_alignEnd="@+id/UsernameField" />
+
+    <TextView
+        android:text="@string/signin_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <CheckBox
+        android:text="@string/signin_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PasswordTextBox"
+        android:layout_alignLeft="@+id/PasswordTextBox"
+        android:layout_alignStart="@+id/PasswordTextBox"
+        android:id="@+id/RememberCheckBox" />
+
+    <Button
+        android:text="@string/signin_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SaveSignInButton"
+        android:layout_below="@+id/RememberCheckBox"
+        android:layout_alignLeft="@+id/RememberCheckBox"
+        android:layout_alignStart="@+id/RememberCheckBox"
+        android:layout_alignRight="@+id/PasswordTextBox"
+        android:layout_alignEnd="@+id/PasswordTextBox" />
+
+    <TextView
+        android:text="@string/howtoenablerpc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_alignRight="@+id/IPAddressText"
+        android:layout_alignEnd="@+id/IPAddressText"
+        android:id="@+id/HowToEnableRPC"
+        android:textColor="#0000FF"  />
+
+</RelativeLayout>
